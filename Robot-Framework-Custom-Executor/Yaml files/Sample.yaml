@@ -1,3 +1,6 @@
 Search_input  :  "//*[contains(@type,'search')]"
 Search_Button :  "//div[contains(@class,'CcAdNb')]"
 Search_Result :  "//h3[contains(text(),'Snowfall (TV series)')]"
+Search_input_YT : "//input[contains(@name,'search_query')]"
+Search_Button_YT :  "//button[contains(@id,'search-icon-legacy')]"
+
