@@ -11,6 +11,7 @@ Open Google Chrome and Search for Snowfall.
     ${chrome_options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
     Call method    ${chrome_options}    add_argument    --no-sandbox
     Call method    ${chrome_options}    add_argument    --disable-extensions
+    Call method    ${chrome_options}    add_argument    --disable-dev-shm-usage
     Call method    ${chrome_options}    add_argument    --headless
     Call method    ${chrome_options}    add_argument    --disable-gpu
     ${ws}=    Set Variable    window-size=1920,1000
