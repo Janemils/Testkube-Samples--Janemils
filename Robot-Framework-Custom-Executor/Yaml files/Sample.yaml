@@ -1,0 +1,3 @@
+Search_input  :  "//*[contains(@type,'search')]"
+Search_Button :  "//div[contains(@class,'CcAdNb')]"
+Search_Result :  "//h3[contains(text(),'Snowfall (TV series)')]"

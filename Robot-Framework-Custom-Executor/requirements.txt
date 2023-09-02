@@ -1,0 +1,4 @@
+selenium==4.5
+Pyyaml==5.3
+robotframework-seleniumlibrary==6.1.1
+robotframework==6.1
