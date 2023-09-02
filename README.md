@@ -7,4 +7,6 @@ It also contains a sample Postman script, that runs a few GET and POST calls. It
 
 Anyhoo, feel free to use the sample code for your testkube explorations!
 
+[UPDATE #1]: Committed the robot framework sample code with folder structures, for your creation of the custom executor in testkube.
+
 - Janemils.
